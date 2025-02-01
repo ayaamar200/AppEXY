@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
+@plugin "flowbite/plugin";
+@source "../../node_modules/flowbite/";
 
-
-@layer utilities{
-    .bg-dark{
-        background-color: #212529;
-    }
-}
